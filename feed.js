@@ -23,16 +23,12 @@ class Feed extends Component {
                <Text style={styles.headerTwo}>POPULAR</Text>
               </View>
 
-
-               <View style={styles.menuContainer}>
-               <PopularItem itemImage={require('./img/burger1.jpeg')} />
-               <PopularItem itemImage={require('./img/burger2.jpeg')} />
-               <PopularItem itemImage={require('./img/burger3.jpg')} />
-               <PopularItem itemImage={require('./img/hotdog1.jpg')} />
-
-
-
-             </View>
+              <View style={styles.menuContainer}>
+                <PopularItem itemImage={require('./img/burger1.jpeg')} />
+                <PopularItem itemImage={require('./img/burger2.jpeg')} />
+                <PopularItem itemImage={require('./img/burger3.jpg')} />
+                <PopularItem itemImage={require('./img/hotdog1.jpg')} />
+              </View>
 
             </View>
 

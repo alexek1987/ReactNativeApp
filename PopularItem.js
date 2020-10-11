@@ -13,7 +13,7 @@ export default class PouplarItem extends React.Component {
         source={this.props.itemImage}
         style={styles.image} />
       </View>
-       )
+    )
   }
 }
 
