@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, Image } from 'react-native';
 import { styles } from '../../styles/styles.js';
-import A from 'react-native-a';
+import Autolink from 'react-native-autolink';
 
 Contact = () =>
   <View style={styles.container}>
@@ -17,7 +17,9 @@ Contact = () =>
 
       <Text style={styles.text}>
         {'✉️ '}
-        <A href="alexek1987@icloud.com" style={{fontWeight: 'bold'}}>Email</A>
+       <AutoLink
+         text="Email (mailto:alexek1987@icloud.com)"
+       />
       </Text>
 
       <Text style={styles.text}>
