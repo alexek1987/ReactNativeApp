@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
   menuItem: {
     width: '33.333333%',
     height: '30%',
-    padding: 10,
+    padding: 10
   },
 
   image: {

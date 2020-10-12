@@ -16,31 +16,29 @@ export const styles = StyleSheet.create({
     fontSize: 24,
     marginTop: 50
   },
-   container: {
+  container: {
     flex: 1,
     width: '100%',
     height: '100%'
-   },
+  },
    overlayContainer: {
     flex: 1,
     backgroundColor: 'rgba(47, 163, 218, .4)'
-   },
-
-   top: {
+  },
+  top: {
     height: '20%',
     alignItems: 'center',
     justifyContent: 'center'
-   },
-   menuContainer: {
+  },
+  menuContainer: {
     height: '50%',
     flexDirection: 'row',
     flexWrap: 'wrap'
-   },
-   text: {
+  },
+  text: {
     fontSize: 25,
     justifyContent: 'center',
     alignItems: 'center',
     padding: 20
-   }
-
+  }
 });
