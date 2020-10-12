@@ -8,7 +8,6 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 
 
-
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
 
