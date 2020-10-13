@@ -5,11 +5,12 @@ export const styles = StyleSheet.create({
   header: {
     color: '#000000',
     fontSize: 20,
-
-    padding: 10,
+    paddingBottom: 10,
     paddingLeft: 40,
+
     paddingRight: 40,
-    marginTop: -169
+    marginTop: -169,
+    fontWeight: 'bold'
 
   },
   headerTwo: {
@@ -20,7 +21,8 @@ export const styles = StyleSheet.create({
 
   },
   pagesHeader: {
-    fontSize: 20
+    fontSize: 20,
+    fontWeight: 'bold'
   },
   container: {
     flex: 1,
