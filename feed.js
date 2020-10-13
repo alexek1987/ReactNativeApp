@@ -13,7 +13,7 @@ class Feed extends Component {
   render() {
     return (
       <ImageBackground
-        source={require('./img/background.jpg')}
+        source={require('./img/background.png')}
         style={styles.container}
         >
         <View style={styles.overlayContainer}>
@@ -40,8 +40,3 @@ class Feed extends Component {
   }
 
 export default Feed;
-
-
-
-
-

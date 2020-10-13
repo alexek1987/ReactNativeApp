@@ -5,16 +5,16 @@ export const styles = StyleSheet.create({
   header: {
     color: '#000000',
     fontSize: 25,
-    borderWidth: .3,
+
     padding: 20,
     paddingLeft: 40,
     paddingRight: 40,
     backgroundColor: 'rgba(255, 255, 255, .1)',
-    borderColor: '#000000'
+    marginBottom: 101
   },
   headerTwo: {
-    fontSize: 24,
-    marginTop: 50
+    fontSize: 18,
+    marginTop: 140
   },
   container: {
     flex: 1,
@@ -22,8 +22,8 @@ export const styles = StyleSheet.create({
     height: '100%'
   },
    overlayContainer: {
-    flex: 1,
-    backgroundColor: 'rgba(47, 163, 218, .4)'
+    flex: 1
+
   },
   top: {
     height: '20%',
