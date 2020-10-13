@@ -23,7 +23,7 @@ class Feed extends Component {
           </View>
 
           <View style={styles.top}>
-            <Text style={styles.headerTwo}>POPULAR</Text>
+            <Text style={styles.headerTwo}>POPULAR ORDERS</Text>
           </View>
 
           <View style={styles.menuContainer}>

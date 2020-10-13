@@ -7,7 +7,7 @@ Menu = () =>
   <View style={styles.container}>
    <View style={styles.overlayContainer}>
       <View style={styles.top}>
-        <Text style={styles.header}>M E N U</Text>
+        <Text style={styles.pagesHeader}>M E N U</Text>
       </View>
       <View style={styles.menuContainer}>
         <MenuItem itemImage={require('../../img/burger3.jpg')} />

@@ -7,7 +7,7 @@ Contact = () =>
   <View style={styles.container}>
     <View style={styles.overlayContainer}>
       <View style={styles.top}>
-        <Text style={styles.header}>C O N T A C T</Text>
+        <Text style={styles.pagesHeader}>C O N T A C T</Text>
       </View>
       <View style={styles.textContainer}>
 

@@ -4,17 +4,23 @@ import { StyleSheet } from 'react-native'
 export const styles = StyleSheet.create({
   header: {
     color: '#000000',
-    fontSize: 25,
+    fontSize: 20,
 
-    padding: 20,
+    padding: 10,
     paddingLeft: 40,
     paddingRight: 40,
-    backgroundColor: 'rgba(255, 255, 255, .1)',
-    marginBottom: 101
+    marginTop: -169
+
   },
   headerTwo: {
     fontSize: 18,
-    marginTop: 140
+    marginTop: 140,
+    alignItems: 'flex-start',
+    marginLeft: 6,
+
+  },
+  pagesHeader: {
+    fontSize: 20
   },
   container: {
     flex: 1,
@@ -22,18 +28,21 @@ export const styles = StyleSheet.create({
     height: '100%'
   },
    overlayContainer: {
-    flex: 1
+    flex: 1,
+    backgroundColor: 'rgba(47, 163, 218, .4)'
 
   },
   top: {
     height: '20%',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    marginTop: 30
   },
   menuContainer: {
     height: '50%',
     flexDirection: 'row',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
+
   },
   text: {
     fontSize: 25,
